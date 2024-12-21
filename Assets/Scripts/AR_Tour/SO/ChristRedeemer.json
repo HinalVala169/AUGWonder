@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The statue was designed by Brazilian engineer Heitor da Silva Costa and created by French sculptor Paul Landowski.",
+        "The statue’s face was sculpted by Romanian artist Gheorghe Leonida."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "Christ the Redeemer is located atop the Corcovado Mountain in Rio de Janeiro, Brazil.",
+        "The statue stands at an elevation of 700 meters (2,300 feet), overlooking the city and Guanabara Bay."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Construction of Christ the Redeemer began in 1922 and took 9 years to complete.",
+        "The statue was officially inaugurated on October 12, 1931."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "Christ the Redeemer was declared part of the UNESCO World Heritage Site designation for Rio de Janeiro’s Carioca Landscapes in 2012.",
+        "It is maintained by the Archdiocese of Rio de Janeiro and protected by Brazilian heritage organizations."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "The statue was built to symbolize the Christian faith and to commemorate the centenary of Brazil's independence in 1922.",
+        "It stands as a universal symbol of peace, hope, and protection for the people of Brazil and visitors from around the world."
+      ]
+    }
+  ]
+}

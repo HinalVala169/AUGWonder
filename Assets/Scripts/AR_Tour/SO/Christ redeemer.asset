@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: Christ redeemer
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 5ffa7002d76e5e34d9c898d3a841f778, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Who Built It
+      details:
+      - The statue was designed by Brazilian engineer Heitor da Silva Costa and created
+        by French sculptor Paul Landowski.
+      - "The statue\u2019s face was sculpted by Romanian artist Gheorghe Leonida."
+    - title: Where It Is Located
+      details:
+      - Christ the Redeemer is located atop the Corcovado Mountain in Rio de Janeiro,
+        Brazil.
+      - The statue stands at an elevation of 700 meters (2,300 feet), overlooking
+        the city and Guanabara Bay.
+    - title: When It Was Built
+      details:
+      - Construction of Christ the Redeemer began in 1922 and took 9 years to complete.
+      - The statue was officially inaugurated on October 12, 1931.
+    - title: Who Is It Protected By
+      details:
+      - "Christ the Redeemer was declared part of the UNESCO World Heritage Site
+        designation for Rio de Janeiro\u2019s Carioca Landscapes in 2012."
+      - It is maintained by the Archdiocese of Rio de Janeiro and protected by Brazilian
+        heritage organizations.
+    - title: Why It Was Built
+      details:
+      - The statue was built to symbolize the Christian faith and to commemorate
+        the centenary of Brazil's independence in 1922.
+      - It stands as a universal symbol of peace, hope, and protection for the people
+        of Brazil and visitors from around the world.
