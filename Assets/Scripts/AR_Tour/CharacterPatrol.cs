@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -81,15 +80,12 @@ public class CharacterPatrol : MonoBehaviour
                 broadcastIndex = broadcastPoints.IndexOf(targetPoint);
                 if (isMainCharacter) // Only the main character broadcasts
                 {
-                    // Get the index of the patrol point in the broadcast list
-                    
                     Debug.Log("----> :" + broadcastIndex);
                     OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
                 }
 
                 // Wait at the patrol point for a specified time before moving to the next
-              //  yield return new WaitForSeconds(waitTime);
-              yield return new WaitForSeconds(waitTimeList[broadcastIndex]);
+                yield return new WaitForSeconds(waitTimeList[broadcastIndex]);
             }
 
             // Increase the target point index
@@ -105,4 +101,17 @@ public class CharacterPatrol : MonoBehaviour
             targetPoint = 0; // Loop back to the start
         }
     }
+
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     // Check if the other object has the tag "Pulse"
+    //     if (other.CompareTag("pulse"))
+    //     {
+    //         Debug.Log("Character triggered with Pulse!");
+    //         //other.gameobject.SetActive(false);
+    //         //other.gameObject.SetActive(false);
+    //     }
+    // }
+
+    
 }

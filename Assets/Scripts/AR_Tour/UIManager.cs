@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI monumentTitle;
     [SerializeField] private TextMeshProUGUI monumentInfo1;
     [SerializeField] private TextMeshProUGUI monumentInfo2;
+    [SerializeField] private List<GameObject> pulseList;
 
     public RectTransform conversationPanel;
 
@@ -160,5 +161,10 @@ public class UIManager : MonoBehaviour
                 InfoSlideOut(); // Slide out if touched outside
             }
         }
+    }
+
+    public void pulseOFF()
+    {
+        pulseList[currentActiveIndex].gameObject.SetActive(false);
     }
 }
