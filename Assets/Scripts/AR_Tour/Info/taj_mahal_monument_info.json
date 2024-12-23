@@ -1,0 +1,40 @@
+{
+    "monumentInformation": [
+        {
+            "title": "Charbagh Garden",
+            "details": [
+                "A stunning Persian-style garden symbolizing paradise, with four equal sections reflecting Mughal symmetry."
+            ]
+        },
+        {
+            "title": "The Jawab",
+            "details": [
+                "The Jawab is a red sandstone mosque complementing the main mausoleum, designed for prayer."
+            ]
+        },
+        {
+            "title": "Taj Mahal - Mausoleum",
+            "details": [
+                "A masterpiece of Mughal architecture blending Persian, Indian, and Islamic styles, crowned by a grand white marble dome."
+            ]
+        },
+        {
+            "title": "Yamuna River",
+            "details": [
+                "The serene Yamuna River flows gracefully behind the Taj, enhancing its tranquility and mirroring its beauty."
+            ]
+        },
+        {
+            "title": "The Mihman Khana",
+            "details": [
+                "The Mihman Khana is a guesthouse matching the mosque, built to maintain visual balance and symmetry."
+            ]
+        },
+        {
+            "title": "Visit Again",
+            "details": [
+                "Hope you enjoyed the tour and will come to visit the timeless beauty of the Taj Mahal again!"
+            ]
+        }
+    ]
+}

@@ -31,10 +31,7 @@ public class CharacterPatrol : MonoBehaviour
 
     private void OnEnable()
     {
-        if (patrolCoroutine == null)  // Make sure it doesn't start multiple times
-        {
-            patrolCoroutine = StartCoroutine(Patrol());
-        }
+        
     }
 
     private void OnDisable()
@@ -44,6 +41,23 @@ public class CharacterPatrol : MonoBehaviour
             StopCoroutine(patrolCoroutine);  // Stop the coroutine when the object is disabled
             patrolCoroutine = null;
         }
+    }
+
+
+    public void ChangeSCR()
+    {
+         animator.SetBool("HandRaiseDone", false);
+         InfoManager.Instance.CHangeSCR();
+    }
+
+    public void WalkStart()
+    {
+        // if (patrolCoroutine == null)  // Make sure it doesn't start multiple times
+        // {
+           
+        // }
+        patrolCoroutine = StartCoroutine(Patrol());
+        AudioManager.Instance.PlayNextVoiceOverClip();
     }
 
     private IEnumerator Patrol()
@@ -73,14 +87,19 @@ public class CharacterPatrol : MonoBehaviour
             }
 
             // Stop walking animation when reached the point
-            animator.SetBool("Walk", false);
-
+           animator.SetBool("Walk", false);
+            //animator.SetBool("HandRaiseDone", true);
             if (broadcastPoints.Contains(targetPoint))
             {
                 broadcastIndex = broadcastPoints.IndexOf(targetPoint);
                 if (isMainCharacter) // Only the main character broadcasts
                 {
                     Debug.Log("----> :" + broadcastIndex);
+                     animator.SetBool("Walk", false);
+                     //animator.Stop("Walk");
+                    //animator.SetBool("HandRaiseDone", true);
+                    PlayHandAnim();
+
                     OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
                 }
 
@@ -93,13 +112,34 @@ public class CharacterPatrol : MonoBehaviour
         }
     }
 
+    public void  PlayHandAnim()
+    {
+        animator.SetBool("HandRaiseDone", true);
+        animator.Play("HandRaise");
+    }
     private void IncreaseTargetInt()
     {
         targetPoint++;
         if (targetPoint >= patrolPoints.Length)
         {
+            StopPatrol();
             targetPoint = 0; // Loop back to the start
         }
+    }
+
+   public void StopPatrol()
+    {
+        if (patrolCoroutine != null)
+        {
+            StopCoroutine(patrolCoroutine); // Stop the patrol coroutine
+            patrolCoroutine = null; // Reset the coroutine reference
+        }
+
+        // Reset the animator or other states as needed
+        animator.SetBool("Walk", false);
+        animator.SetBool("HandRaiseDone", false);
+        Debug.Log("Patrol stopped.");
+        InfoManager.Instance.SetDefaultText();
     }
 
     // private void OnTriggerEnter(Collider other)
