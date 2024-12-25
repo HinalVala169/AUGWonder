@@ -17,6 +17,7 @@ public class InfoManager : MonoBehaviour
 
       [SerializeField] private Image infoImg;
       public GameObject goBTN;
+       public GameObject highLightCam;
      [SerializeField] private int infoNo; 
 
      public IndiaGateCameraTransition cameraTransition;
@@ -51,6 +52,7 @@ public class InfoManager : MonoBehaviour
             screens[0].SetActive(false);
             FetchAndDisplayInfoByIndex(infoNo);
             screens[1].SetActive(true);
+            highLightCam.SetActive(true);
             AudioManager.Instance.PlayNextVoiceOverClip();
             StartCoroutine(WaitForVoiceOverToComplete());
         }
@@ -72,16 +74,16 @@ public class InfoManager : MonoBehaviour
          infoNo++;
         if(infoNo < infoSO.monumentInformation.monumentInformation.Length)
         {
-           
+              highLightCam.SetActive(false);
             FetchAndDisplayInfoByIndex(infoNo);
             screens[1].SetActive(false);
             screens[0].SetActive(true);
             //character.PlayHandAnim();
             StartCoroutine(PerformAfterDelay(1f)); 
         }
-        else{
-            character.WalkStart();
-        }
+        // else{
+        //   //  character.WalkStart();
+        // }
        
     }
 
@@ -92,7 +94,6 @@ public class InfoManager : MonoBehaviour
         if(infoNo < infoSO.monumentInformation.monumentInformation.Length)
         {
             character.PlayHandAnim();
-            
         }
         
     }
@@ -113,7 +114,7 @@ public class InfoManager : MonoBehaviour
 
     public void SetDefaultText()
     {   
-        cameraTransition.currentCameraPositionIndex = -1;
+        //cameraTransition.currentCameraPositionIndex = -1;
         goBTN.SetActive(true);
 
         headingText.text = heading2.text = infoSO.monumentInformation.monumentInformation[0].title;

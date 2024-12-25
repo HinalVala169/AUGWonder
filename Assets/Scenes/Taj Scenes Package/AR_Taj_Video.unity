@@ -4556,6 +4556,7 @@ MonoBehaviour:
   - {x: -0.129, y: 0.136, z: 0}
   - {x: -0.129, y: 0.24, z: -0.22}
   - {x: -0.07, y: 0.17, z: -0.5}
+  - {x: -0.07, y: 0.17, z: -0.561}
   currentCameraPositionIndex: -1
 --- !u!4 &499591278
 Transform:
@@ -16656,7 +16657,9 @@ MonoBehaviour:
   detailsText: {fileID: 1339944048}
   infoImg: {fileID: 0}
   goBTN: {fileID: 1844754580}
+  highLightCam: {fileID: 1685809029}
   infoNo: 0
+  cameraTransition: {fileID: 499591277}
 --- !u!4 &1604575628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8051424219383465853, guid: e2767e220c13e1b4c8bac529e19fefa0,
@@ -19915,8 +19918,8 @@ GameObject:
   - component: {fileID: 1955217290}
   - component: {fileID: 1955217289}
   - component: {fileID: 1955217288}
-  - component: {fileID: 1955217291}
   - component: {fileID: 1955217292}
+  - component: {fileID: 1955217293}
   m_Layer: 0
   m_Name: Cube (24)#
   m_TagString: Untagged
@@ -20010,19 +20013,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955217286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1955217291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955217286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraToCenterTrigger: 1
 --- !u!54 &1955217292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20050,6 +20040,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1955217293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955217286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToCenterTrigger: 1
 --- !u!1 &1960406491
 GameObject:
   m_ObjectHideFlags: 0

@@ -138,6 +138,8 @@ public class CharacterPatrol : MonoBehaviour
         // Reset the animator or other states as needed
         animator.SetBool("Walk", false);
         animator.SetBool("HandRaiseDone", false);
+        animator.SetBool("PlayHandAnim", false);
+        //animator.SetTrigger("isDefault");
         Debug.Log("Patrol stopped.");
         InfoManager.Instance.SetDefaultText();
     }

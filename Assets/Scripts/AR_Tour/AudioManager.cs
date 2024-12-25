@@ -38,16 +38,19 @@ public class AudioManager : MonoBehaviour
 
     public void PlayNextVoiceOverClip()
     {
+
+        Debug.Log("---------------");
         if (currentClipIndex >= voiceOverClips.Length)
         {
             Debug.Log("All voice-over clips have been played.");
             return;
         }
 
-        AudioClip currentClip = voiceOverClips[voiceClip];
+        AudioClip currentClip = voiceOverClips[currentClipIndex];
         voiceOverAudioSource.clip = currentClip;
         FadeBGMusic();
         voiceOverAudioSource.Play();
+        currentClipIndex++;
     }
 
     public void ClipToEnd()
