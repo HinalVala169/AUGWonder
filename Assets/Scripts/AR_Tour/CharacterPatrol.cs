@@ -11,7 +11,7 @@ public class CharacterPatrol : MonoBehaviour
     public List<int> broadcastPoints;
     private int currentBroadcastIndex;
     public int broadcastIndex;
-
+    private bool isPatrolling;
     public int targetPoint;
     public float speed;
     public float rotationSpeed = 5f; // Speed of rotation
@@ -56,14 +56,17 @@ public class CharacterPatrol : MonoBehaviour
         // {
            
         // }
+        isPatrolling = true; 
         patrolCoroutine = StartCoroutine(Patrol());
         AudioManager.Instance.PlayNextVoiceOverClip();
     }
 
     private IEnumerator Patrol()
     {
-        while (true)
-        {
+        while (isPatrolling)
+        {   //Debug.Log("Walk");
+
+           // Debug.Log("----=== :");
             // Move towards the target patrol point
             while (transform.position != patrolPoints[targetPoint].position)
             {
@@ -79,7 +82,7 @@ public class CharacterPatrol : MonoBehaviour
                     Quaternion targetRotation = Quaternion.LookRotation(direction);
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 }
-
+                animator.SetBool("HandRaiseDone", false);
                 // Set animator to walking
                 animator.SetBool("Walk", true);
 
@@ -94,7 +97,7 @@ public class CharacterPatrol : MonoBehaviour
                 broadcastIndex = broadcastPoints.IndexOf(targetPoint);
                 if (isMainCharacter) // Only the main character broadcasts
                 {
-                    Debug.Log("----> :" + broadcastIndex);
+                  //  Debug.Log("----> :" + broadcastIndex);
                      animator.SetBool("Walk", false);
                      //animator.Stop("Walk");
                     //animator.SetBool("HandRaiseDone", true);
@@ -134,7 +137,7 @@ public class CharacterPatrol : MonoBehaviour
             StopCoroutine(patrolCoroutine); // Stop the patrol coroutine
             patrolCoroutine = null; // Reset the coroutine reference
         }
-
+       // animator.enabled = false;
         // Reset the animator or other states as needed
         animator.SetBool("Walk", false);
         animator.SetBool("HandRaiseDone", false);
@@ -142,6 +145,9 @@ public class CharacterPatrol : MonoBehaviour
         //animator.SetTrigger("isDefault");
         Debug.Log("Patrol stopped.");
         InfoManager.Instance.SetDefaultText();
+        animator.Play("Default");
+       // Debug.Log("Default");
+        isPatrolling = false;
     }
 
     // private void OnTriggerEnter(Collider other)
