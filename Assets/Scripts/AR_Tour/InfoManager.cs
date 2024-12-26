@@ -11,6 +11,7 @@ public class InfoManager : MonoBehaviour
     public CharacterPatrol character;
     [Header("References")]
     [SerializeField] private List<GameObject> screens;
+    [SerializeField] private List<Sprite> infoIMG;
     [SerializeField] private MonumentInfoSO infoSO; // Reference to the ScriptableObject
     [SerializeField] private TextMeshProUGUI headingText,heading2; // TMP UI Text for the heading
     [SerializeField] private TextMeshProUGUI detailsText; // TMP UI Text for the details
@@ -103,6 +104,7 @@ public class InfoManager : MonoBehaviour
         {
             var infoEntry = infoSO.monumentInformation.monumentInformation[index];
             headingText.text = heading2.text  = infoEntry.title; // Set heading text
+            infoImg.sprite = infoIMG[index];
             detailsText.text = string.Join("\n", infoEntry.details); // Set details text
         }
         else
@@ -116,7 +118,7 @@ public class InfoManager : MonoBehaviour
     {   
         //cameraTransition.currentCameraPositionIndex = -1;
         goBTN.SetActive(true);
-
+         infoNo = 0;
         headingText.text = heading2.text = infoSO.monumentInformation.monumentInformation[0].title;
         detailsText.text =  infoSO.monumentInformation.monumentInformation[0].details[0];
         //infoImg = 

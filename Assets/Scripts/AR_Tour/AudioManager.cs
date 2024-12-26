@@ -8,12 +8,12 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Sources")]
     public AudioSource bgAudioSource;
     public AudioSource voiceOverAudioSource;
-    public int voiceClip;
+   // public int voiceClip;
 
     [Header("Audio Clips")]
     public AudioClip[] voiceOverClips;
 
-    private int currentClipIndex = 0;
+    public int currentClipIndex = 0;
 
     void Awake()
     {

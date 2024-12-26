@@ -9,7 +9,7 @@ public class CharacterPatrol : MonoBehaviour
 
     public Transform[] patrolPoints;
     public List<int> broadcastPoints;
-    private int currentBroadcastIndex;
+    public int currentBroadcastIndex;
     public int broadcastIndex;
     private bool isPatrolling;
     public int targetPoint;
@@ -56,6 +56,9 @@ public class CharacterPatrol : MonoBehaviour
         // {
            
         // }
+         AudioManager.Instance.currentClipIndex = 0;
+        InfoManager.Instance.highLightCam.SetActive(false);
+       
         isPatrolling = true; 
         patrolCoroutine = StartCoroutine(Patrol());
         AudioManager.Instance.PlayNextVoiceOverClip();
@@ -144,10 +147,11 @@ public class CharacterPatrol : MonoBehaviour
         animator.SetBool("PlayHandAnim", false);
         //animator.SetTrigger("isDefault");
         Debug.Log("Patrol stopped.");
-        InfoManager.Instance.SetDefaultText();
+        
         animator.Play("Default");
        // Debug.Log("Default");
         isPatrolling = false;
+         InfoManager.Instance.SetDefaultText();
     }
 
     // private void OnTriggerEnter(Collider other)
