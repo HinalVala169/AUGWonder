@@ -67,6 +67,9 @@ public class InfoManager : MonoBehaviour
             yield return null; 
         }
         Debug.Log("Audio clip finished playing. Performing next action.");
+        float delay = 10f; // Set the desired delay in seconds
+        yield return new WaitForSeconds(delay);
+         Debug.Log("Delay complete. Performing next action.");
         BackTOPrevSCR();
     }
 
@@ -91,7 +94,6 @@ public class InfoManager : MonoBehaviour
     private IEnumerator PerformAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Debug.Log("Audio-------------.");
         if(infoNo < infoSO.monumentInformation.monumentInformation.Length)
         {
             character.PlayHandAnim();

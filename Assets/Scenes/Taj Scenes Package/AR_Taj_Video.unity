@@ -6713,7 +6713,7 @@ Transform:
   m_GameObject: {fileID: 735700593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1389, y: 0.0758, z: 0.042}
+  m_LocalPosition: {x: 0.1424, y: 0.0758, z: 0.065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10452,7 +10452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 096cfde9c155c434d887aebf56088464, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18238,12 +18238,11 @@ MonoBehaviour:
   - {fileID: 929720218}
   - {fileID: 888292879}
   infoIMG:
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
-  - {fileID: 21300000, guid: 1fd5aabb352d18643a7a2cfef2ab7505, type: 3}
+  - {fileID: 21300000, guid: 096cfde9c155c434d887aebf56088464, type: 3}
+  - {fileID: 21300000, guid: b0ffe3119c6701a48ba4fbbd5f5da478, type: 3}
+  - {fileID: 21300000, guid: 04ba86a6a6a39dc4a8032477fd0479b6, type: 3}
+  - {fileID: 21300000, guid: 0ae8382eecf539041b793549fde0abe3, type: 3}
+  - {fileID: 21300000, guid: b0736ec48002d5d47b568629d5e79182, type: 3}
   infoSO: {fileID: 11400000, guid: 7bb7d179a3cbf444ab2fecaf77e97612, type: 2}
   headingText: {fileID: 654295796}
   heading2: {fileID: 1126516050}
@@ -18948,7 +18947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6bcc7c276522754ea3b651e182283ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bec48ef8c1a8357419fe2b6102155961, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26575,7 +26574,7 @@ MonoBehaviour:
   - {fileID: 1298641302}
   - {fileID: 1955217287}
   - {fileID: 437834517}
-  broadcastPoints: 050000000e000000
+  broadcastPoints: 05000000
   currentBroadcastIndex: 0
   broadcastIndex: 0
   targetPoint: 0
@@ -26583,7 +26582,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 1
   waitTimeList:
-  - 80
+  - 125
   - 3
   - 9
   - 8
@@ -33468,7 +33467,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgAudioSource: {fileID: 2227472764283948206}
   voiceOverAudioSource: {fileID: 5924576706215665048}
-  voiceClip: 0
   voiceOverClips:
   - {fileID: 8300000, guid: 0f0b642e02229644592b80169961f964, type: 3}
   - {fileID: 8300000, guid: 87818dd80c6a6ea4aa71e99b9c71f593, type: 3}

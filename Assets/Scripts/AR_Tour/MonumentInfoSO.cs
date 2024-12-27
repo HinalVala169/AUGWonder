@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MonumentInfo", menuName = "ScriptableObjects/MonumentInfoSO")]
 public class MonumentInfoSO : ScriptableObject
 {
-    public TextAsset jsonTextAsset; // Reference to the TextAsset containing the JSON
+    public TextAsset jsonTextAsset; 
     public MonumentInformation monumentInformation;
 
     private void OnValidate()
@@ -30,7 +30,7 @@ public class MonumentInfoSO : ScriptableObject
 [System.Serializable]
 public class MonumentInformation
 {
-    public InfoEntry[] monumentInformation; // Array to hold the monument info entries
+    public InfoEntry[] monumentInformation; 
 }
 
 [System.Serializable]

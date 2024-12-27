@@ -38,8 +38,6 @@ public class AudioManager : MonoBehaviour
 
     public void PlayNextVoiceOverClip()
     {
-
-        Debug.Log("---------------");
         if (currentClipIndex >= voiceOverClips.Length)
         {
             Debug.Log("All voice-over clips have been played.");
@@ -72,7 +70,8 @@ public class AudioManager : MonoBehaviour
 
     // New method to check if voice-over is playing
     public bool IsVoiceOverPlaying()
-    {
+    { 
+        Debug.Log("voiceOverAudioSource : " + voiceOverAudioSource.clip);
         return voiceOverAudioSource.isPlaying;
     }
 }

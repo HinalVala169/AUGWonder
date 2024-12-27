@@ -14,19 +14,18 @@ public class CharacterPatrol : MonoBehaviour
     private bool isPatrolling;
     public int targetPoint;
     public float speed;
-    public float rotationSpeed = 5f; // Speed of rotation
-    public float waitTime = 2f; // Time to wait at each patrol point
+    public float rotationSpeed = 5f; 
+    public float waitTime = 2f; 
     public List<float> waitTimeList;
-
     private bool isWaiting = false;
     private Coroutine patrolCoroutine;
 
-    [SerializeField] private bool isMainCharacter; //so that only one broadcast is going
-    private Animator animator; // Reference to the Animator
+    [SerializeField] private bool isMainCharacter; 
+    private Animator animator;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>(); // Get the Animator component
+        animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -38,7 +37,7 @@ public class CharacterPatrol : MonoBehaviour
     {
         if (patrolCoroutine != null)
         {
-            StopCoroutine(patrolCoroutine);  // Stop the coroutine when the object is disabled
+            StopCoroutine(patrolCoroutine); 
             patrolCoroutine = null;
         }
     }
@@ -52,13 +51,8 @@ public class CharacterPatrol : MonoBehaviour
 
     public void WalkStart()
     {
-        // if (patrolCoroutine == null)  // Make sure it doesn't start multiple times
-        // {
-           
-        // }
-         AudioManager.Instance.currentClipIndex = 0;
+        AudioManager.Instance.currentClipIndex = 0;
         InfoManager.Instance.highLightCam.SetActive(false);
-       
         isPatrolling = true; 
         patrolCoroutine = StartCoroutine(Patrol());
         AudioManager.Instance.PlayNextVoiceOverClip();
@@ -67,53 +61,35 @@ public class CharacterPatrol : MonoBehaviour
     private IEnumerator Patrol()
     {
         while (isPatrolling)
-        {   //Debug.Log("Walk");
-
-           // Debug.Log("----=== :");
+        {
             // Move towards the target patrol point
             while (transform.position != patrolPoints[targetPoint].position)
             {
                 // Move the character
                 transform.position = Vector3.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
 
-                // Calculate the direction to the target
                 Vector3 direction = patrolPoints[targetPoint].position - transform.position;
-
-                // Calculate the rotation step
                 if (direction != Vector3.zero)
                 {
                     Quaternion targetRotation = Quaternion.LookRotation(direction);
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 }
                 animator.SetBool("HandRaiseDone", false);
-                // Set animator to walking
                 animator.SetBool("Walk", true);
-
-                yield return null; // Wait for the next frame
+                yield return null;
             }
-
-            // Stop walking animation when reached the point
            animator.SetBool("Walk", false);
-            //animator.SetBool("HandRaiseDone", true);
             if (broadcastPoints.Contains(targetPoint))
             {
                 broadcastIndex = broadcastPoints.IndexOf(targetPoint);
-                if (isMainCharacter) // Only the main character broadcasts
+                if (isMainCharacter) 
                 {
-                  //  Debug.Log("----> :" + broadcastIndex);
-                     animator.SetBool("Walk", false);
-                     //animator.Stop("Walk");
-                    //animator.SetBool("HandRaiseDone", true);
+                    animator.SetBool("Walk", false);
                     PlayHandAnim();
-
-                    OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
+                    OnInfoPointReached?.Invoke(broadcastIndex); 
                 }
-
-                // Wait at the patrol point for a specified time before moving to the next
                 yield return new WaitForSeconds(waitTimeList[broadcastIndex]);
             }
-
-            // Increase the target point index
             IncreaseTargetInt();
         }
     }
@@ -129,7 +105,7 @@ public class CharacterPatrol : MonoBehaviour
         if (targetPoint >= patrolPoints.Length)
         {
             StopPatrol();
-            targetPoint = 0; // Loop back to the start
+            targetPoint = 0; 
         }
     }
 
@@ -137,33 +113,16 @@ public class CharacterPatrol : MonoBehaviour
     {
         if (patrolCoroutine != null)
         {
-            StopCoroutine(patrolCoroutine); // Stop the patrol coroutine
-            patrolCoroutine = null; // Reset the coroutine reference
+            StopCoroutine(patrolCoroutine); 
+            patrolCoroutine = null; 
         }
-       // animator.enabled = false;
-        // Reset the animator or other states as needed
         animator.SetBool("Walk", false);
         animator.SetBool("HandRaiseDone", false);
         animator.SetBool("PlayHandAnim", false);
-        //animator.SetTrigger("isDefault");
         Debug.Log("Patrol stopped.");
-        
         animator.Play("Default");
-       // Debug.Log("Default");
         isPatrolling = false;
          InfoManager.Instance.SetDefaultText();
     }
 
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     // Check if the other object has the tag "Pulse"
-    //     if (other.CompareTag("pulse"))
-    //     {
-    //         Debug.Log("Character triggered with Pulse!");
-    //         //other.gameobject.SetActive(false);
-    //         //other.gameObject.SetActive(false);
-    //     }
-    // }
-
-    
 }
