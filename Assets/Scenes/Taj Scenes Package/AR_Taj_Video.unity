@@ -17478,7 +17478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b942724921ae4c4438a22172254f5233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1230339807647075041}
+  character: {fileID: 0}
   screens:
   - {fileID: 929720218}
   - {fileID: 888292879}
@@ -18955,7 +18955,7 @@ PrefabInstance:
         type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 1230339807647075041}
+      objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumentPapyrusImage
@@ -20126,7 +20126,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1230339807647075041}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CharacterPatrol, Assembly-CSharp
         m_MethodName: WalkStart
         m_Mode: 1
@@ -25514,6 +25514,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2453550708452717748, guid: ee72d38c8d4be4340869bda4018cf45a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ee72d38c8d4be4340869bda4018cf45a,
         type: 3}
       propertyPath: m_Name
@@ -25550,6 +25555,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7036213049465896255, guid: ee72d38c8d4be4340869bda4018cf45a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291330258761766309, guid: ee72d38c8d4be4340869bda4018cf45a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
