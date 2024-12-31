@@ -1,0 +1,52 @@
+{
+    "monumentInformation": [
+        {
+            "title": "Mutianyu Section",
+            "details": [
+                "A scenic and well-preserved part of the wall."
+            ]
+        },
+        {
+            "title": "Badaling Section",
+            "details": [
+                "The most accessible and popular section."
+            ]
+        },
+        {
+            "title": "Jiankou Section",
+            "details": [
+                "A rugged, adventurous stretch of the wall."
+            ]
+        },
+        {
+            "title": "Watchtowers",
+            "details": [
+                "Defensive structures with stunning views."
+            ]
+        },
+        {
+            "title": "Jinshanling Section",
+            "details": [
+                "Known for its breathtaking views and tranquility."
+            ]
+        },
+        {
+            "title": "Gubeikou Section",
+            "details": [
+                "A historic part with original bricks."
+            ]
+        },
+        {
+            "title": "Simatai Section",
+            "details": [
+                "A beautiful part offering night tours."
+            ]
+        },
+        {
+            "title": "The Great Wall Museum",
+            "details": [
+                "Located at Badaling, showcasing the wall's history and significance."
+            ]
+        }
+    ]
+}

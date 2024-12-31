@@ -1,0 +1,1211 @@
+fileFormatVersion: 2
+guid: 2b6041efd8714c04f894b0b5fa7a81fe
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Armature|mixamo.com|Layer0
+      takeName: Armature|Armature|mixamo.com|Layer0
+      internalID: -4791504522942941401
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GIRL REWORK(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Hips
+      parentName: Armature
+      position: {x: 0.000018253922, y: 9.474082, z: -0.012071423}
+      rotation: {x: -0.00000015614692, y: 0.00000037253855, z: -0.0000094934185, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -3.3196555e-12, y: 0.9712451, z: -0.07038453}
+      rotation: {x: -0.036162946, y: -0.00000071560805, z: 0.000009473737, w: 0.9993459}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -9.997371e-13, y: 1.1360893, z: -0.000000019073486}
+      rotation: {x: 0.00000008195638, y: -9.1824186e-14, z: 6.772555e-13, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -6.8379097e-13, y: 1.29839, z: -0.000000038146972}
+      rotation: {x: -0.000000029802322, y: -4.2351647e-21, z: 6.776264e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -2.6578134e-12, y: 1.4606864, z: -0.00000019073485}
+      rotation: {x: 0.036163043, y: 3.4382463e-14, z: 2.2876688e-13, w: 0.9993459}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: 2.528308e-12, y: 0.75256467, z: 0.09290941}
+      rotation: {x: 0.000000007348521, y: -4.29651e-21, z: -1.2527617e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: 1.355014e-12, y: 5.7959933, z: 0.7155577}
+      rotation: {x: 6.938891e-18, y: -1.7157424e-22, z: 3.8320465e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End_end
+      parentName: mixamorig:HeadTop_End
+      position: {x: -0, y: 5.8399973, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.6974715, y: 1.0638655, z: -0.014724006}
+      rotation: {x: 0.57187724, y: -0.41186127, z: 0.57799894, w: 0.4113929}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: 0.00000013828277, y: 1.6223903, z: -0.0000005364418}
+      rotation: {x: -0.20262334, y: 0.004375129, z: -0.009965417, w: 0.97919625}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: -0.000000048119837, y: 1.7247964, z: -0.00000016485806}
+      rotation: {x: 0.0000010349355, y: -0.0013606586, z: 0.00000021946646, w: 0.9999991}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999997}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: 0.0000001850634, y: 1.8481634, z: -0.0000009637047}
+      rotation: {x: -0.0016376512, y: 0.030887956, z: 0.000050428505, w: 0.9995215}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: mixamorig:LeftHandThumb1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.20189646, y: 0.20941268, z: 0.087022685}
+      rotation: {x: 0.12623379, y: -0.065405585, z: -0.3604977, w: 0.92186147}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: mixamorig:LeftHandThumb2
+      parentName: mixamorig:LeftHandThumb1
+      position: {x: -0.01069366, y: 0.24266335, z: -0.0000009661354}
+      rotation: {x: 0.00048207803, y: 0.008447807, z: 0.10072848, w: 0.994878}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.9999999}
+    - name: mixamorig:LeftHandThumb3
+      parentName: mixamorig:LeftHandThumb2
+      position: {x: 0.06383436, y: 0.4012514, z: -0.00000007390976}
+      rotation: {x: -0.000004643286, y: -0.00048372793, z: -0.14904886, w: 0.98882973}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: mixamorig:LeftHandThumb4
+      parentName: mixamorig:LeftHandThumb3
+      position: {x: -0.053141326, y: 0.3731845, z: -0.0000013828277}
+      rotation: {x: 0.00000040419405, y: 0.00000089779513, z: 0.00000068265945, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: mixamorig:LeftHandThumb4_end
+      parentName: mixamorig:LeftHandThumb4
+      position: {x: -0, y: 0.3769498, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.00000019527332, y: 0.8068876, z: 0.0026440858}
+      rotation: {x: 0.0016374104, y: 0.00023033327, z: -0.0009762946, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: -0.00073415757, y: 0.37583202, z: 0.0000037503241}
+      rotation: {x: -0.00000002139704, y: -0.000043227505, z: -0.0012172774, w: 0.9999993}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: -0.0014465784, y: 0.32956162, z: 0.0000015522959}
+      rotation: {x: 0.0000008337639, y: 0.00030148317, z: 0.00788735, w: 0.9999689}
+      scale: {x: 1, y: 0.9999998, z: 0.99999976}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: 0.0021807002, y: 0.19143064, z: -0.0000011988543}
+      rotation: {x: 0.0000006067046, y: 0.000000026623942, z: 0.00000012030068, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex4_end
+      parentName: mixamorig:LeftHandIndex4
+      position: {x: -0, y: 0.4682829, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.69747144, y: 1.0658888, z: -0.04264351}
+      rotation: {x: -0.55925494, y: -0.41944093, z: 0.5891339, w: -0.4052462}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: 0.000000028610229, y: 1.6223902, z: 0.00000056028364}
+      rotation: {x: -0.20110288, y: -0.010190039, z: 0.026709136, w: 0.979153}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: 0.00000014754856, y: 1.7404352, z: 0.000002225458}
+      rotation: {x: 0.0000001984529, y: 0.002279789, z: -0.00000036393283, w: 0.99999744}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: -0.000000024395995, y: 1.8480346, z: 0.0000008451659}
+      rotation: {x: -0.0020990968, y: -0.02826141, z: -0.000059187227, w: 0.9995984}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999964}
+    - name: mixamorig:RightHandThumb1
+      parentName: mixamorig:RightHand
+      position: {x: -0.20057575, y: 0.21446535, z: 0.09250055}
+      rotation: {x: 0.13159595, y: 0.06761943, z: 0.34434718, w: 0.9271112}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: mixamorig:RightHandThumb2
+      parentName: mixamorig:RightHandThumb1
+      position: {x: 0.008624392, y: 0.24614288, z: -0.00000050902366}
+      rotation: {x: 0.00058050564, y: -0.009360339, z: -0.09672099, w: 0.99526733}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: mixamorig:RightHandThumb3
+      parentName: mixamorig:RightHandThumb2
+      position: {x: -0.06292217, y: 0.3930741, z: -0.00000025272368}
+      rotation: {x: -0.0000014325738, y: 0.00029273293, z: 0.15342735, w: 0.9881599}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999994}
+    - name: mixamorig:RightHandThumb4
+      parentName: mixamorig:RightHandThumb3
+      position: {x: 0.054298706, y: 0.3608753, z: -0.0000010204315}
+      rotation: {x: -0.0000007022173, y: -0.00000069849193, z: -0.000000013038517,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb4_end
+      parentName: mixamorig:RightHandThumb4
+      position: {x: -0, y: 0.3649367, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: 0.00000032812704, y: 0.816323, z: 0.0034302187}
+      rotation: {x: 0.0021010125, y: 0.0013779687, z: 0.00039906285, w: 0.9999968}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: 0.00028735696, y: 0.3624196, z: 0.000000036396084}
+      rotation: {x: -0.00000061880394, y: 0.000003761884, z: -0.00049355585, w: 0.9999999}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: -0.00006427899, y: 0.332802, z: 0.0000021534775}
+      rotation: {x: 0.00000042917765, y: -0.00005005737, z: -0.0005133531, w: 0.9999999}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: -0.00022238195, y: 0.18248008, z: -0.00000040119514}
+      rotation: {x: -0.000000044541313, y: -0.0000000038152708, z: 0.000000025846022,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: mixamorig:RightHandIndex4_end
+      parentName: mixamorig:RightHandIndex4
+      position: {x: -0, y: 0.45830324, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.9758692, y: -0.540469, z: 0.026397653}
+      rotation: {x: 0.00004114085, y: -0.0110674165, z: 0.99993736, w: 0.0016993892}
+      scale: {x: 1, y: 1.0000004, z: 1.0000013}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: -0.000000034232507, y: 3.7492802, z: 0.000000009243377}
+      rotation: {x: -0.012323813, y: -0.000000608424, z: 0.0033513652, w: 0.99991846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: -0.00000006194925, y: 3.8586414, z: 0.000000003692694}
+      rotation: {x: 0.455152, y: -0.004044604, z: 0.0014965, w: 0.89040333}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: 0.00000012721866, y: 2.0207655, z: -0.000000004172325}
+      rotation: {x: 0.33039486, y: 0.027481522, z: -0.009624581, w: 0.9433936}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999976}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: 0.00000004529953, y: 0.78758633, z: -0.00000001013279}
+      rotation: {x: 0.000000035164703, y: 0.0000000033969623, z: 0.000000004871253,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:LeftToe_End_end
+      parentName: mixamorig:LeftToe_End
+      position: {x: -0, y: 0.7875878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.97586906, y: -0.5404685, z: -0.0057040835}
+      rotation: {x: -0.000038760518, y: -0.010800134, z: 0.9999402, w: -0.0017173247}
+      scale: {x: 0.99999994, y: 1, z: 1.0000008}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: 0.000000046144706, y: 3.748424, z: 0.000000018775463}
+      rotation: {x: -0.008691614, y: -0.000004601148, z: -0.0033523033, w: 0.9999566}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 0.00000009217998, y: 3.8581321, z: 0.00000003644498}
+      rotation: {x: 0.4519609, y: 0.004047233, z: -0.0014978807, w: 0.8920274}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: 0.000000017397106, y: 2.0223866, z: 0.000000027120112}
+      rotation: {x: 0.330098, y: -0.02766755, z: 0.009680013, w: 0.94349146}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: -0.00000006139278, y: 0.781992, z: 2.9802322e-10}
+      rotation: {x: -0.000000006737537, y: -0.0000000018999349, z: 0.0000000021941562,
+        w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: mixamorig:RightToe_End_end
+      parentName: mixamorig:RightToe_End
+      position: {x: -0, y: 0.7819928, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_MESH.009
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.144
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.226
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.060
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.061
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794357, y: 0.16649166, z: 1.962002}
+      rotation: {x: -0.00076218066, y: 8.940696e-10, z: 2.9802216e-10, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.186
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.278
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.007
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.038
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.075
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794168, y: 0.16648936, z: 1.962002}
+      rotation: {x: -0.00076218124, y: -2.9802366e-10, z: -0.0000000018253925, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.189
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.227
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.284
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.0087942025, y: 0.16649064, z: 1.962002}
+      rotation: {x: -0.0007621767, y: 8.940695e-10, z: 0.000000002682209, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.059
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.006
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.014
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.228
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.285
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.093
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.057
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.122
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.193
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.229
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.005
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.194
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.286
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.036
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.112
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.115
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.233
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794168, y: 0.16648936, z: 1.962002}
+      rotation: {x: -0.00076218124, y: -2.9802366e-10, z: -0.0000000018253925, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.287
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.056
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.111
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.151
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.197
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.108
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.141
+      parentName: GIRL REWORK(Clone)
+      position: {x: 1.4362139, y: 17.923296, z: 1.4380652}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.160
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.116
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.289
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.235
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.055
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.200
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.053
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.291
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.107
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.143
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.239
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.201
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.118
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794596, y: 0.16649038, z: 1.962002}
+      rotation: {x: -0.00076218, y: -5.2072058e-18, z: -1.4901166e-10, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 99.99999}
+    - name: SM_MESH.293
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794653, y: 0.16649064, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 2.9103805e-12, z: 3.8744537e-12, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.240
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794168, y: 0.16648936, z: 1.962002}
+      rotation: {x: -0.00076218124, y: -2.9802366e-10, z: -0.0000000018253925, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.051
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.156
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.204
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.105
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.0278223, y: 19.895617, z: -0.7800452}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.253
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.048
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.9620024}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.094
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.164
+      parentName: GIRL REWORK(Clone)
+      position: {x: 0.81865364, y: 16.823925, z: 1.0964637}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.205
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.304
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.119
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.166
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.037
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.206
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.305
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.255
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.092
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.089
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794653, y: 0.16649064, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 2.9103805e-12, z: 3.8744537e-12, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.032
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.207
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.256
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.306
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.85902023, y: 16.823914, z: 1.0964627}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.167
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.030
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.088
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.168
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.307
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.071
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.07420017, y: 18.42204, z: -0.39778817}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.257
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.208
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.169
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.258
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794168, y: 0.16648936, z: 1.962002}
+      rotation: {x: -0.00076218124, y: -2.9802366e-10, z: -0.0000000018253925, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.084
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.210
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.026
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.070
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.083
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.140
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794653, y: 0.16649064, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 2.9103805e-12, z: 3.8744537e-12, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.021
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794168, y: 0.16648936, z: 1.962002}
+      rotation: {x: -0.00076218124, y: -2.9802366e-10, z: -0.0000000018253925, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: SM_MESH.171
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008795095, y: 0.16649194, z: 1.962002}
+      rotation: {x: -0.00076217874, y: 0.000000002980233, z: 0.000000007748604, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.221
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.264
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.080
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.224
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794536, y: 0.16649103, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -0.0000000011920934, z: -0.0000000065565118,
+        w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00001}
+    - name: SM_MESH.135
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649099, z: 1.9620019}
+      rotation: {x: -0.0007621787, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00002, z: 100.00002}
+    - name: SM_MESH.149
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.179
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.269
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.016
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.068
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.063
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008793831, y: 0.16649106, z: 1.962002}
+      rotation: {x: -0.00076218107, y: -8.9407026e-10, z: 0.0000000064820065, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: SM_MESH.225
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794612, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621806, y: -2.3719637e-10, z: -0.0000000017293502, w: 0.9999997}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: SM_MESH.272
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794603, y: 0.16649085, z: 1.9620024}
+      rotation: {x: -0.0007621812, y: 2.0019998e-21, z: -7.4505825e-11, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.013
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794594, y: 0.16649063, z: 1.962002}
+      rotation: {x: -0.00076218037, y: 0, z: -0, w: 0.9999997}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SM_MESH.185
+      parentName: GIRL REWORK(Clone)
+      position: {x: -0.008794546, y: 0.16649076, z: 1.9620024}
+      rotation: {x: -0.0007621804, y: -9.34234e-11, z: 3.52154e-11, w: 0.9999997}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
