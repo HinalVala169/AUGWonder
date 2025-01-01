@@ -533,8 +533,6 @@ MonoBehaviour:
   - {x: -0.0173, y: 0.0901, z: -0.0369}
   - {x: -0.0826, y: 0.06917, z: -0.0574}
   - {x: -0.1375, y: 0.0553, z: -0.0957}
-  - {x: -0.1375, y: 0.0553, z: -0.0957}
-  - {x: -0.18992, y: 0.05268, z: -0.138}
   - {x: -0.2216, y: 0.0487, z: -0.1694}
   - {x: -0.2216, y: 0.0487, z: -0.1694}
   - {x: -0.2741, y: 0.039, z: -0.2237}
@@ -4127,6 +4125,7 @@ GameObject:
   - component: {fileID: 1548564620}
   - component: {fileID: 1548564619}
   - component: {fileID: 1548564618}
+  - component: {fileID: 1548564621}
   m_Layer: 0
   m_Name: Cube 7 (1)
   m_TagString: Untagged
@@ -4143,7 +4142,7 @@ Transform:
   m_GameObject: {fileID: 1548564615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.1, y: 37.85, z: -10.4}
+  m_LocalPosition: {x: -56.7, y: 37.85, z: -11.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4220,6 +4219,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548564615}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1548564621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548564615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToCenterTrigger: 1
 --- !u!1 &1553046174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6234,7 +6246,6 @@ GameObject:
   - component: {fileID: 1857719440}
   - component: {fileID: 1857719439}
   - component: {fileID: 1857719438}
-  - component: {fileID: 1857719441}
   m_Layer: 0
   m_Name: Cube 14
   m_TagString: Untagged
@@ -6328,19 +6339,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857719435}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1857719441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857719435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraToCenterTrigger: 1
 --- !u!1 &1903192602 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8735334003261193115, guid: c2320af2afde134418b11b1a79adf612,
@@ -7082,11 +7080,12 @@ MonoBehaviour:
   - {fileID: 2021252006}
   - {fileID: 1548564616}
   - {fileID: 1746618260}
-  - {fileID: 1331026991}
-  - {fileID: 976692935}
-  - {fileID: 993091020}
-  - {fileID: 1922121497}
-  - {fileID: 862861438}
+  - {fileID: 1821909986}
+  - {fileID: 1916273637}
+  - {fileID: 1213989041}
+  - {fileID: 1018627616}
+  - {fileID: 1513656515}
+  - {fileID: 1857719436}
   broadcastPoints: 07000000
   currentBroadcastIndex: 0
   broadcastIndex: 0
@@ -7095,7 +7094,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 1
   waitTimeList:
-  - 0
+  - 165
   - 10
   - 20
   - 10
