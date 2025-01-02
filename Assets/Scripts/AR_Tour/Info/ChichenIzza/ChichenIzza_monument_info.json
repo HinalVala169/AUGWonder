@@ -1,0 +1,52 @@
+{
+    "monumentInformation": [
+        {
+            "title": "El Castillo (Temple of Kukulkan)",
+            "details": [
+                "The iconic pyramid reflecting astronomical precision."
+            ]
+        },
+        {
+            "title": "Great Ball Court",
+            "details": [
+                "The largest ancient ball court in Mesoamerica."
+            ]
+        },
+        {
+            "title": "Cenote Sagrado",
+            "details": [
+                "A sacred sinkhole for rituals and offerings."
+            ]
+        },
+        {
+            "title": "Temple of the Warriors",
+            "details": [
+                "A complex with striking columns of warriors."
+            ]
+        },
+        {
+            "title": "Observatory (El Caracol)",
+            "details": [
+                "A structure used by the Maya for astronomical studies."
+            ]
+        },
+        {
+            "title": "Platform of Skulls",
+            "details": [
+                "A chilling yet fascinating display of ancient rituals."
+            ]
+        },
+        {
+            "title": "The Nunnery",
+            "details": [
+                "A large palace with intricate carvings."
+            ]
+        },
+        {
+            "title": "Marketplace",
+            "details": [
+                "A vast area used for trading and community gatherings."
+            ]
+        }
+    ]
+}

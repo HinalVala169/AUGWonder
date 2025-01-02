@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: ChichenIzza
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: b4b9088e31fa3a34f907f0111bde9da9, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: El Castillo (Temple of Kukulkan)
+      details:
+      - The iconic pyramid reflecting astronomical precision.
+    - title: Great Ball Court
+      details:
+      - The largest ancient ball court in Mesoamerica.
+    - title: Cenote Sagrado
+      details:
+      - A sacred sinkhole for rituals and offerings.
+    - title: Temple of the Warriors
+      details:
+      - A complex with striking columns of warriors.
+    - title: Observatory (El Caracol)
+      details:
+      - A structure used by the Maya for astronomical studies.
+    - title: Platform of Skulls
+      details:
+      - A chilling yet fascinating display of ancient rituals.
+    - title: The Nunnery
+      details:
+      - A large palace with intricate carvings.
+    - title: Marketplace
+      details:
+      - A vast area used for trading and community gatherings.
