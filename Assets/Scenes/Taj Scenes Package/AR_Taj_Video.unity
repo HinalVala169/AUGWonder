@@ -4563,6 +4563,7 @@ MonoBehaviour:
   - {x: -0.07, y: 0.17, z: -0.5}
   - {x: -0.07, y: 0.17, z: -0.561}
   currentCameraPositionIndex: -1
+  cameraPositionNo: 0
 --- !u!4 &499591278
 Transform:
   m_ObjectHideFlags: 0
@@ -21744,6 +21745,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 4
   waitTimeList: []
+  cameraPos: {fileID: 0}
   isMainCharacter: 0
 --- !u!1 &2021867756
 GameObject:
@@ -25696,6 +25698,7 @@ MonoBehaviour:
   - 8
   - 8
   - 6
+  cameraPos: {fileID: 499591277}
   isMainCharacter: 1
 --- !u!4 &1293342124663185750
 Transform:

@@ -538,6 +538,7 @@ MonoBehaviour:
   - {x: -0.2741, y: 0.039, z: -0.2237}
   - {x: -0.3111, y: 0.039, z: -0.2706}
   currentCameraPositionIndex: -1
+  cameraPositionNo: 0
 --- !u!4 &499591278
 Transform:
   m_ObjectHideFlags: 0
@@ -7100,6 +7101,7 @@ MonoBehaviour:
   - 10
   - 8
   - 6
+  cameraPos: {fileID: 0}
   isMainCharacter: 1
 --- !u!1 &1943361403543280824
 GameObject:
@@ -8208,6 +8210,7 @@ MonoBehaviour:
   - 10
   - 8
   - 6
+  cameraPos: {fileID: 499591277}
   isMainCharacter: 1
 --- !u!65 &7920254968154968908
 BoxCollider:
