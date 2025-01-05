@@ -19,6 +19,8 @@ public class CharacterPatrol : MonoBehaviour
     public List<float> waitTimeList;
     private bool isWaiting = false;
     private Coroutine patrolCoroutine;
+ [SerializeField] 
+    private IndiaGateCameraTransition cameraPos;
 
     [SerializeField] private bool isMainCharacter; 
     private Animator animator;
@@ -109,7 +111,7 @@ public class CharacterPatrol : MonoBehaviour
         if (targetPoint >= patrolPoints.Length)
         {
             StopPatrol();
-            targetPoint = 0; 
+           
         }
     }
 
@@ -125,8 +127,11 @@ public class CharacterPatrol : MonoBehaviour
         animator.SetBool("PlayHandAnim", false);
         Debug.Log("Patrol stopped.");
         animator.Play("Default");
+        targetPoint = 0; 
+        cameraPos.currentCameraPositionIndex = cameraPos.cameraPositionNo;
         isPatrolling = false;
-         InfoManager.Instance.SetDefaultText();
+        InfoManager.Instance.SetDefaultText();
+
     }
 
 }

@@ -10,6 +10,8 @@ public class IndiaGateCameraTransition : MonoBehaviour
    // [SerializeField]
     public int currentCameraPositionIndex = 0;
 
+    public int cameraPositionNo;
+
     private void OnEnable()
     {
         IndiaGateTrigger.OnIndiaGateTrigger += IndiaGateTrigger_OnIndiaGateTrigger;
@@ -19,6 +21,11 @@ public class IndiaGateCameraTransition : MonoBehaviour
     {
         IndiaGateTrigger.OnIndiaGateTrigger -= IndiaGateTrigger_OnIndiaGateTrigger;
     }
+     
+     public void Start()
+     {
+            cameraPositionNo = currentCameraPositionIndex;
+     }
 
     private void IndiaGateTrigger_OnIndiaGateTrigger(bool obj)
     {
