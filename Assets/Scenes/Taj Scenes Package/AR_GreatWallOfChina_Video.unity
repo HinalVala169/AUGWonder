@@ -5506,7 +5506,7 @@ PrefabInstance:
     - target: {fileID: 5462453950416416080, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Selection Screen
+      value: AR_GreatWallOfChina
       objectReference: {fileID: 0}
     - target: {fileID: 5484358651935133528, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
