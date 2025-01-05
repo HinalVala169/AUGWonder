@@ -80,7 +80,7 @@ public class AudioManager : MonoBehaviour
             Debug.Log("The intro clip has finished playing.");
             character.PlayHandAnim();
         }
-        if (currentClipIndex == 8) // First clip index is 0, but it increments after playing
+        if (currentClipIndex == voiceOverClips.Length) // First clip index is 0, but it increments after playing
         {
             Debug.Log("The all clip has finished playing.");
             PlayVisitAgainClip();

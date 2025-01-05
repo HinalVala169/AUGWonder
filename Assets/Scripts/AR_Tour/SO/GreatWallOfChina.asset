@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: GreatWallOfChina
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 5ffa7002d76e5e34d9c898d3a841f778, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Who Built It
+      details:
+      - The Great Wall was initially built by the Qin Dynasty under Emperor Qin Shi
+        Huang in the 3rd century BCE.
+      - "It was expanded and reinforced by later dynasties, notably the Han Dynasty
+        (206 BCE\u2013220 CE) and the Ming Dynasty (1368\u20131644 CE)."
+    - title: Where It Is Located
+      details:
+      - The Great Wall stretches across northern China, covering approximately 21,196
+        kilometers (13,171 miles).
+      - It spans from Shanhaiguan in the east to Jiayuguan in the west, crossing
+        mountains, deserts, and grasslands.
+    - title: When It Was Built
+      details:
+      - Construction of the earliest sections began in the 7th century BCE during
+        the Warring States period.
+      - The most well-preserved sections, seen today, were built during the Ming
+        Dynasty between the 14th and 17th centuries CE.
+    - title: Who Is It Protected By
+      details:
+      - The Great Wall was designated a UNESCO World Heritage Site in 1987 for its
+        historical significance.
+      - It is protected and maintained by the National Cultural Heritage Administration
+        of China and various preservation organizations.
+    - title: Why It Was Built
+      details:
+      - The Great Wall was built primarily to protect China from invasions by nomadic
+        tribes and military incursions from the north.
+      - It also served as a means of border control, trade regulation, and communication
+        along the Silk Road, symbolizing the strength and unity of ancient China.

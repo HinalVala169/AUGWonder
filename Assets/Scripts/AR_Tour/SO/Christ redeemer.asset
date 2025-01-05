@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
   m_Name: Christ redeemer
   m_EditorClassIdentifier: 
-  jsonTextAsset: {fileID: 4900000, guid: 5ffa7002d76e5e34d9c898d3a841f778, type: 3}
+  jsonTextAsset: {fileID: 4900000, guid: 3d481d1d15698ef439495a7b81a06418, type: 3}
   monumentInformation:
     monumentInformation:
     - title: Who Built It

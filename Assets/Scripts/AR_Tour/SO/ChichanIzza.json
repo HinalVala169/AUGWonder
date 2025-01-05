@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The Maya civilization built Chichén Itza, with its major structures constructed between the 9th and 12th centuries CE.",
+        "The city was later influenced by the Toltec culture, evident in the architectural style of the site."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "Chichen Itza is located in the Yucatán Peninsula, Mexico, about 120 kilometers east of Merida.",
+        "The site covers an area of approximately 10 square kilometers and is situated near the ancient cenotes (natural wells)."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Chichen Itza was established around the 6th century CE and reached its peak between the 9th and 12th centuries CE.",
+        "Key structures, like the Temple of Kukulcan (El Castillo), were built during this peak period."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "Chichen Itza was designated a UNESCO World Heritage Site in 1988 due to its cultural and historical significance.",
+        "It is protected and maintained by the National Institute of Anthropology and History (INAH) of Mexico."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "Chichen Itza served as a major political, religious, and economic center for the Maya civilization.",
+        "The site was built to honor Mayan deities, particularly Kukulcán (the feathered serpent god), and features structures for astronomical observations, rituals, and ceremonies."
+      ]
+    }
+  ]
+}
