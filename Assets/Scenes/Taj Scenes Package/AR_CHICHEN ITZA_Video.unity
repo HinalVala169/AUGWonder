@@ -3776,6 +3776,99 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000024, y: 0}
   m_SizeDelta: {x: 5.419845, y: 2.433515}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &909475649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 909475652}
+  - component: {fileID: 909475651}
+  - component: {fileID: 909475650}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &909475650
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909475649}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: 2eddbcbe02acb2148a57af0bb44537a0, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &909475651
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909475649}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 2eddbcbe02acb2148a57af0bb44537a0, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!4 &909475652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909475649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -623, y: -1.4, z: -254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929720218
 GameObject:
   m_ObjectHideFlags: 0
@@ -9186,14 +9279,18 @@ MonoBehaviour:
   bgAudioSource: {fileID: 2227472764283948206}
   voiceOverAudioSource: {fileID: 5924576706215665048}
   voiceOverClips:
-  - {fileID: 8300000, guid: 0f0b642e02229644592b80169961f964, type: 3}
-  - {fileID: 8300000, guid: 87818dd80c6a6ea4aa71e99b9c71f593, type: 3}
-  - {fileID: 8300000, guid: 116b232bb3821474d81af6801f0d0237, type: 3}
-  - {fileID: 8300000, guid: a2dd7eda6f3ccd74b8244185aa9c1952, type: 3}
-  - {fileID: 8300000, guid: 3f8fc79e106be1d41885a468e30a87ca, type: 3}
-  - {fileID: 8300000, guid: 726f378622c29354f912ac2408a549ef, type: 3}
-  - {fileID: 8300000, guid: 6c4143d5db198974e8ba50cb3ea34dec, type: 3}
+  - {fileID: 8300000, guid: 8b5951b9b23542746b211f3f66f28d7b, type: 3}
+  - {fileID: 8300000, guid: 5cb05065de09428498e8e8dbbd2b0672, type: 3}
+  - {fileID: 8300000, guid: d6d32b16f379f1c458833ea113bc56d7, type: 3}
+  - {fileID: 8300000, guid: bb2c00d7e8d5b1146baab1c0312cb2f9, type: 3}
+  - {fileID: 8300000, guid: c5d46a2becdad7a4e9558d4bf53f2244, type: 3}
+  - {fileID: 8300000, guid: bdd84052f8e82ff40bd490cd22f57f85, type: 3}
+  - {fileID: 8300000, guid: 464a400668c13f146b4a220c92699929, type: 3}
+  - {fileID: 8300000, guid: a2fbfd95a79f00f44af57f47198f044d, type: 3}
+  - {fileID: 8300000, guid: b541e88947e63f241878ff1de363b848, type: 3}
+  visitAgainClip: {fileID: 8300000, guid: 056de0565738203489a460efc3dfa5b5, type: 3}
   currentClipIndex: 0
+  character: {fileID: 7551858466645037049}
 --- !u!4 &6573892217433847802
 Transform:
   m_ObjectHideFlags: 0
@@ -9514,7 +9611,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 1
   waitTimeList:
-  - 0
+  - 205
   - 10
   - 20
   - 10
@@ -9723,5 +9820,6 @@ SceneRoots:
   - {fileID: 735700597}
   - {fileID: 1609306078}
   - {fileID: 8490596}
-  - {fileID: 883200072220491523}
   - {fileID: 9129875653390882677}
+  - {fileID: 909475652}
+  - {fileID: 883200072220491523}

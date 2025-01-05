@@ -85,8 +85,12 @@ public class CharacterPatrol : MonoBehaviour
                 if (isMainCharacter) 
                 {
                     animator.SetBool("Walk", false);
-                    PlayHandAnim();
-                    OnInfoPointReached?.Invoke(broadcastIndex); 
+                     
+                    if(!AudioManager.Instance.IsVoiceOverPlaying())
+                    {
+                       PlayHandAnim();
+                       OnInfoPointReached?.Invoke(broadcastIndex); 
+                    }
                 }
                 yield return new WaitForSeconds(waitTimeList[broadcastIndex]);
             }

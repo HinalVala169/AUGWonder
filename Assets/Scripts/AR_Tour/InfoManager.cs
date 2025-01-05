@@ -61,16 +61,26 @@ public class InfoManager : MonoBehaviour
 
     private IEnumerator WaitForVoiceOverToComplete()
     {
-       
         while (AudioManager.Instance.IsVoiceOverPlaying())
         {
             yield return null; 
         }
+        
         Debug.Log("Audio clip finished playing. Performing next action.");
-        float delay = 10f; // Set the desired delay in seconds
-        yield return new WaitForSeconds(delay);
-         Debug.Log("Delay complete. Performing next action.");
-        BackTOPrevSCR();
+
+        // Check if all clips have been played
+        if (AudioManager.Instance.currentClipIndex >= AudioManager.Instance.voiceOverClips.Length)
+        {
+            Debug.Log("All voice-over clips have been completed.");
+           // AudioManager.Instance.PlayVisitAgainClip();
+        }
+        else
+        {
+            float delay = 10f; // Set the desired delay in seconds
+            yield return new WaitForSeconds(delay);
+            Debug.Log("Delay complete. Performing next action.");
+            BackTOPrevSCR();
+        }
     }
 
     public void BackTOPrevSCR()
