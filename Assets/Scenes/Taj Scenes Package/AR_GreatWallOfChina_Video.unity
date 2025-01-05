@@ -7861,14 +7861,19 @@ MonoBehaviour:
   bgAudioSource: {fileID: 2227472764283948206}
   voiceOverAudioSource: {fileID: 5924576706215665048}
   voiceOverClips:
-  - {fileID: 8300000, guid: 0f0b642e02229644592b80169961f964, type: 3}
-  - {fileID: 8300000, guid: 87818dd80c6a6ea4aa71e99b9c71f593, type: 3}
-  - {fileID: 8300000, guid: 116b232bb3821474d81af6801f0d0237, type: 3}
-  - {fileID: 8300000, guid: a2dd7eda6f3ccd74b8244185aa9c1952, type: 3}
-  - {fileID: 8300000, guid: 3f8fc79e106be1d41885a468e30a87ca, type: 3}
-  - {fileID: 8300000, guid: 726f378622c29354f912ac2408a549ef, type: 3}
-  - {fileID: 8300000, guid: 6c4143d5db198974e8ba50cb3ea34dec, type: 3}
+  - {fileID: 8300000, guid: d9b878934be93514d96a36017510241b, type: 3}
+  - {fileID: 8300000, guid: 1cf9f1e2b376507449077cc01ab0acc4, type: 3}
+  - {fileID: 8300000, guid: 6c4ec79e74c718b4e94cc2d6faa22584, type: 3}
+  - {fileID: 8300000, guid: c68919418ae51c545834d4c167a60382, type: 3}
+  - {fileID: 8300000, guid: 9d5bee51b63b15c479bf3c904f159d79, type: 3}
+  - {fileID: 8300000, guid: 0bc1f393e16c88d43a9d6a094041453d, type: 3}
+  - {fileID: 8300000, guid: c9990dff46bb63744b45b51c308b38f5, type: 3}
+  - {fileID: 8300000, guid: d64025ba35881f040a1ed5afa77fb99d, type: 3}
+  - {fileID: 8300000, guid: da3ed0aa09bd22b4caf9bffc5ef37492, type: 3}
+  - {fileID: 8300000, guid: abd9a41cf6360ba419dac611cab17c86, type: 3}
+  visitAgainClip: {fileID: 0}
   currentClipIndex: 0
+  character: {fileID: 0}
 --- !u!4 &6573892217433847802
 Transform:
   m_ObjectHideFlags: 0
