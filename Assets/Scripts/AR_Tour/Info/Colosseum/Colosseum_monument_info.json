@@ -1,0 +1,52 @@
+{
+    "monumentInformation": [
+        {
+            "title": "Arena Floor",
+            "details": [
+                "The central stage where gladiators once battled for glory."
+            ]
+        },
+        {
+            "title": "Corcovado Mountain",
+            "details": [
+                "Offering breathtaking views of Rio de Janeiro."
+            ]
+        },
+        {
+            "title": "Escadaria Selarón (Nearby)",
+            "details": [
+                "A vibrant, colorful staircase close to the statue."
+            ]
+        },
+        {
+            "title": "Tijuca National Park",
+            "details": [
+                "A lush rainforest surrounding the statue."
+            ]
+        },
+        {
+            "title": "Paineiras Visitor Center",
+            "details": [
+                "Provides information and facilities for visitors."
+            ]
+        },
+        {
+            "title": "Chapel at the Base",
+            "details": [
+                "A serene space for worship beneath the statue."
+            ]
+        },
+        {
+            "title": "Sugarloaf Mountain (Nearby)",
+            "details": [
+                "Another iconic viewpoint in Rio."
+            ]
+        },
+        {
+            "title": "Santa Teresa Neighborhood",
+            "details": [
+                "A charming area known for its art and culture."
+            ]
+        }
+    ]
+}
