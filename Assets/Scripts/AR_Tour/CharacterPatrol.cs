@@ -1,4 +1,4 @@
-using System.Collections;
+   using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -104,7 +104,7 @@ public class CharacterPatrol : MonoBehaviour
     {
         animator.SetBool("HandRaiseDone", true);
         animator.Play("HandRaise");
-    }
+    } 
     private void IncreaseTargetInt()
     {
         targetPoint++;

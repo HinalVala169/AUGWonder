@@ -76,9 +76,9 @@ public class InfoManager : MonoBehaviour
         }
         else
         {
-            float delay = 10f; // Set the desired delay in seconds
+            float delay = 2f; // Set the desired delay in seconds
             yield return new WaitForSeconds(delay);
-            Debug.Log("Delay complete. Performing next action.");
+            Debug.Log("Delay complete. Performing next action." + delay);
             BackTOPrevSCR();
         }
     }

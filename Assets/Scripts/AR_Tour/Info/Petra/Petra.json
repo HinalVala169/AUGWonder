@@ -1,0 +1,53 @@
+{
+    "monumentInformation": [
+      {
+        "title": "The Treasury (Al-Khazneh)",
+        "details": [
+          "Petra's most famous rock-carved facade."
+        ]
+      },
+      {
+        "title": "The Siq",
+        "details": [
+          "A stunning canyon pathway leading to the Treasury."
+        ]
+      },
+      {
+        "title": "The Monastery (Ad-Deir)",
+        "details": [
+          "A grand structure atop a hill with breathtaking views."
+        ]
+      },
+      {
+        "title": "The Royal Tombs",
+        "details": [
+          "Magnificent burial sites carved into the cliffs."
+        ]
+      },
+      {
+        "title": "The Great Temple",
+        "details": [
+          "A massive archaeological site showcasing Nabataean architecture."
+        ]
+      },
+      {
+        "title": "The Colonnaded Street",
+        "details": [
+          "The main street of ancient Petra, lined with columns."
+        ]
+      },
+      {
+        "title": "The High Place of Sacrifice",
+        "details": [
+          "An elevated ceremonial site offering panoramic views."
+        ]
+      },
+      {
+        "title": "Petra Archaeological Museum",
+        "details": [
+          "Exhibiting artifacts and the history of Petra."
+        ]
+      }
+    ]
+  }
+  
