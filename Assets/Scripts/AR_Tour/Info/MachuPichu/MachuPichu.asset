@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: MachuPichu
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 7c0e555ad78a9584a921954cd30474ab, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Intihuatana Stone
+      details:
+      - An ancient sundial with astronomical significance.
+    - title: Temple of the Sun
+      details:
+      - A sacred site aligned with the solstice sun.
+    - title: Temple of the Three Windows
+      details:
+      - Representing Inca cosmology.
+    - title: Huayna Picchu
+      details:
+      - A steep climb offering spectacular views.
+    - title: Terraces
+      details:
+      - Ingenious farming systems of the Incas.
+    - title: Main Plaza
+      details:
+      - A central open space surrounded by significant structures.
+    - title: The Guardhouse
+      details:
+      - A viewpoint offering stunning panoramas of the site.
+    - title: Inca Bridge
+      details:
+      - A hidden, cliff-side bridge showcasing Inca ingenuity.
