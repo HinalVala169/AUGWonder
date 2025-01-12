@@ -129,6 +129,7 @@ public class CharacterPatrol : MonoBehaviour
         animator.Play("Default");
         targetPoint = 0; 
         cameraPos.currentCameraPositionIndex = cameraPos.cameraPositionNo;
+        cameraPos.currentcameraRotIndexNo = cameraPos.cameraRotNo;
         isPatrolling = false;
         InfoManager.Instance.SetDefaultText();
 

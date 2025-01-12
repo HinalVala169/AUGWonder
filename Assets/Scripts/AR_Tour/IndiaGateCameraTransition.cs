@@ -7,10 +7,15 @@ public class IndiaGateCameraTransition : MonoBehaviour
     [SerializeField] private GameObject mainCamera;
     [SerializeField] private List<Vector3> mainCameraPositions;
 
+    [SerializeField] private List<Quaternion> rotPositions;
+
+
    // [SerializeField]
     public int currentCameraPositionIndex = 0;
+     public int currentcameraRotIndexNo;
 
     public int cameraPositionNo;
+     public int cameraRotNo;
 
     private void OnEnable()
     {
@@ -25,10 +30,19 @@ public class IndiaGateCameraTransition : MonoBehaviour
      public void Start()
      {
             cameraPositionNo = currentCameraPositionIndex;
+            cameraRotNo   = currentcameraRotIndexNo;
      }
 
-    private void IndiaGateTrigger_OnIndiaGateTrigger(bool obj)
+    private void IndiaGateTrigger_OnIndiaGateTrigger(bool obj, bool rot)
     {
+
+        if(rot)
+        {
+           
+             currentcameraRotIndexNo = (currentcameraRotIndexNo + 1) % rotPositions.Count;
+              mainCamera.transform.rotation  = rotPositions[currentcameraRotIndexNo];
+
+        }
         if (obj)
         {
             // If true, move to the next position in the list
