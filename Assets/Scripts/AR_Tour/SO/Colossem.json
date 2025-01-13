@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The Colosseum was commissioned by Emperor Vespasian of the Flavian dynasty in 70-72 CE as a gift to the Roman people.",
+        "It was completed under Emperor Titus in 80 CE, with later modifications by his brother, Emperor Domitian."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "The Colosseum is located in the heart of Rome, Italy, just east of the Roman Forum.",
+        "It stands in the Piazza del Colosseo, symbolizing the grandeur of ancient Rome."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Construction of the Colosseum began in 70-72 CE during the reign of Emperor Vespasian.",
+        "It was completed in 80 CE, taking approximately 8 years to finish. Additional improvements were made under Emperor Domitian around 81-96 CE."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "The Colosseum was designated a UNESCO World Heritage Site in 1980, recognized for its historical and cultural importance.",
+        "It is protected and maintained by the Italian Ministry of Culture and various heritage organizations to ensure its preservation."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "The Colosseum was built as a massive amphitheater for public spectacles such as gladiator combats, animal hunts, and mock naval battles.",
+        "It served as a symbol of Rome's power, engineering brilliance, and the Flavian dynasty's generosity towards the Roman people."
+      ]
+    }
+  ]
+}

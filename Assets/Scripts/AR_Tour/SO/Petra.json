@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The Nabataeans – an ancient Arabian civilization – were responsible for building Petra, carving it into rose-red cliffs between the 4th century BCE and 2nd century CE.",
+        "King Aretas IV (9 BCE–40 CE), a Nabataean king, played a significant role in the expansion and development of Petra into a thriving trade hub."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "Petra is located in southern Jordan, between the Red Sea and the Dead Sea, near the modern town of Wadi Musa.",
+        "The city is nestled in a rugged, desert canyon and can be accessed via the Siq, a narrow, winding gorge approximately 1.2 kilometers long."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "The earliest structures in Petra were built around the 4th century BCE when the Nabataeans settled in the area.",
+        "The city reached its architectural peak between the 1st century BCE and 2nd century CE, with key monuments such as the Treasury (Al-Khazneh) and the Monastery (Ad-Deir)."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "UNESCO declared Petra a World Heritage Site in 1985 for its unique architecture and historical importance.",
+        "The site is managed and protected by the Petra Development and Tourism Region Authority (PDTRA) and the Department of Antiquities of Jordan."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "Petra was established as the capital of the Nabataean Kingdom, serving as a strategic center for trade routes connecting Arabia, Egypt, and the Mediterranean.",
+        "The structures, including tombs and temples, symbolized the Nabataean's ingenuity in water management and architecture, demonstrating their prosperity and cultural sophistication."
+      ]
+    }
+  ]
+}

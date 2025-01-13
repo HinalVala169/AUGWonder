@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Selection Screen.unity
     guid: 0f179f46de7f53143b0066f0a16a46ab
   - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_Petra_Video.unity
+    guid: 85a294affa6d1a14189d100977aaa816
+  - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_MachuPichu_Video.unity
+    guid: 7db59ebfbdf12234096d6ec305d191cc
+  - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_COLOSSEUM_Video.unity
+    guid: beec2719da046c74ca29919ee7b0a5ba
+  - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_Petra.unity
+    guid: 07aa50c109b252c49a6591934a759ea6
+  - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_MachuPichu.unity
+    guid: d6150bca75f4dfa4e84f34878ba58e72
+  - enabled: 1
+    path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_Colosseum.unity
+    guid: 723c1f155b52e6c4684f09036653019a
+  - enabled: 1
     path: Assets/Scenes/Taj Scenes Package/AR_Taj_Video.unity
     guid: 828b04e605bda724cb8219abef8f8ddd
   - enabled: 1

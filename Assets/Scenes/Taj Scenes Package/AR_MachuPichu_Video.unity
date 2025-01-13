@@ -226,79 +226,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &121808989
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 785626338}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: dfef8aaa7ebbe4046bafbb98dc044995,
-        type: 3}
-      propertyPath: m_Name
-      value: MACHU PICCHU
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dfef8aaa7ebbe4046bafbb98dc044995, type: 3}
 --- !u!4 &121808990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
     type: 3}
-  m_PrefabInstance: {fileID: 121808989}
+  m_PrefabInstance: {fileID: 7612179445685108608}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &133260102
 GameObject:
@@ -1082,8 +1014,11 @@ MonoBehaviour:
   - {x: 321, y: 21, z: -2}
   - {x: -51, y: 21, z: 48}
   - {x: -131, y: 21, z: -15}
+  rotPositions: []
   currentCameraPositionIndex: -1
+  currentcameraRotIndexNo: 0
   cameraPositionNo: 0
+  cameraRotNo: 0
 --- !u!4 &499591278
 Transform:
   m_ObjectHideFlags: 0
@@ -1814,38 +1749,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 160.9, z: 0}
---- !u!1 &785626337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 785626338}
-  m_Layer: 0
-  m_Name: Machu Pichu Parent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &785626338
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 785626337}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 121808990}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &862861437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,7 +5595,7 @@ PrefabInstance:
     - target: {fileID: 5462453950416416080, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_CHICHEN ITZA
+      value: AR_MachuPichu
       objectReference: {fileID: 0}
     - target: {fileID: 5484358651935133528, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -6649,6 +6552,22 @@ Transform:
   - {fileID: 8225245659010951298}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &897713112466053143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3491140005465166476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 121808990}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1943361403543280824
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,6 +6789,22 @@ Transform:
   - {fileID: 5891757256732581167}
   m_Father: {fileID: 929720219}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &3491140005465166476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 897713112466053143}
+  m_Layer: 0
+  m_Name: Machu Pichu Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &3765555179958808565
 GameObject:
   m_ObjectHideFlags: 0
@@ -7855,6 +7790,74 @@ MonoBehaviour:
   - 6
   cameraPos: {fileID: 499591277}
   isMainCharacter: 1
+--- !u!1001 &7612179445685108608
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 897713112466053143}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfef8aaa7ebbe4046bafbb98dc044995,
+        type: 3}
+      propertyPath: m_Name
+      value: MACHU PICCHU
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfef8aaa7ebbe4046bafbb98dc044995, type: 3}
 --- !u!65 &7920254968154968908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8058,4 +8061,4 @@ SceneRoots:
   - {fileID: 8490596}
   - {fileID: 9129875653390882677}
   - {fileID: 883200072220491523}
-  - {fileID: 785626338}
+  - {fileID: 897713112466053143}
