@@ -4562,8 +4562,11 @@ MonoBehaviour:
   - {x: -0.129, y: 0.24, z: -0.22}
   - {x: -0.07, y: 0.17, z: -0.5}
   - {x: -0.07, y: 0.17, z: -0.561}
+  rotPositions: []
   currentCameraPositionIndex: -1
+  currentcameraRotIndexNo: 0
   cameraPositionNo: 0
+  cameraRotNo: 0
 --- !u!4 &499591278
 Transform:
   m_ObjectHideFlags: 0
@@ -5768,8 +5771,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287048448
-  m_fontColor: {r: 0, g: 0.16862746, b: 0.5294118, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6698,6 +6701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!54 &792388266
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14295,8 +14299,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287048448
-  m_fontColor: {r: 0, g: 0.16672789, b: 0.5294118, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16081,6 +16085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!54 &1453147281
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16470,6 +16475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!65 &1514436291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16975,8 +16981,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279507967
-  m_fontColor: {r: 1, g: 0.10748728, b: 0.08018869, a: 1}
+    rgba: 4278775295
+  m_fontColor: {r: 1, g: 0.9312694, b: 0.033018887, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17800,6 +17806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!54 &1623004280
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19411,6 +19418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!54 &1749447234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19495,7 +19503,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5dbb5301e14d79b42811d78acdda1a1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 386d5f2c611f40148a6888459ca5e002, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20951,6 +20959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1960406491
 GameObject:
   m_ObjectHideFlags: 0
@@ -22029,6 +22038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!54 &2054319377
 Rigidbody:
   m_ObjectHideFlags: 0

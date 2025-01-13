@@ -548,8 +548,11 @@ MonoBehaviour:
   - {x: -1.5, y: 48.9, z: 155.13}
   - {x: -3.09, y: 48.9, z: 140.2}
   - {x: 0.4, y: 49.4, z: 134.2}
+  rotPositions: []
   currentCameraPositionIndex: 0
+  currentcameraRotIndexNo: 0
   cameraPositionNo: 0
+  cameraRotNo: 0
 --- !u!1 &513926409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &735700593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &888292879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &981235132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,6 +1769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &999203256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,6 +2599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1256533080
 GameObject:
   m_ObjectHideFlags: 0
@@ -4114,6 +4122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1553046174
 GameObject:
   m_ObjectHideFlags: 0
@@ -4181,8 +4190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279507967
-  m_fontColor: {r: 1, g: 0.10748728, b: 0.08018869, a: 1}
+    rgba: 4278775295
+  m_fontColor: {r: 1, g: 0.92941177, b: 0.03137255, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4755,6 +4764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1685809029
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,6 +5635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1751868342
 GameObject:
   m_ObjectHideFlags: 0
@@ -5682,7 +5693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 462ef7104a88d0241b9ae80c8847aaaa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5ce5e60e664f674e9a842a0ec09bba0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5882,6 +5893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &1844754580
 GameObject:
   m_ObjectHideFlags: 0
@@ -6356,6 +6368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToCenterTrigger: 1
+  cameraRot: 0
 --- !u!1 &2021252005
 GameObject:
   m_ObjectHideFlags: 0

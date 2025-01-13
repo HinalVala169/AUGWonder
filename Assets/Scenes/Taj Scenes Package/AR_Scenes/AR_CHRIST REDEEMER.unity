@@ -1378,7 +1378,7 @@ PrefabInstance:
     - target: {fileID: 1068323089066453832, guid: 799a99bc7ece8c9498b363318a3c2c87,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1696343945028158888, guid: 799a99bc7ece8c9498b363318a3c2c87,
         type: 3}
@@ -6595,10 +6595,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3175221711789491165}
     m_Modifications:
+    - target: {fileID: 2752303277419217001, guid: 152e5b3eaed17af449f6ddab12716b1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7917918222789223963, guid: 152e5b3eaed17af449f6ddab12716b1d,
         type: 3}
       propertyPath: m_Name
       value: MessageBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917918222789223963, guid: 152e5b3eaed17af449f6ddab12716b1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8354901241905557546, guid: 152e5b3eaed17af449f6ddab12716b1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9146001768914499311, guid: 152e5b3eaed17af449f6ddab12716b1d,
         type: 3}
