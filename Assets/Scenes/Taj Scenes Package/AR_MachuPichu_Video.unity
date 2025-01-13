@@ -6619,7 +6619,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6c319bf4a8af7d1458e0016d2d5e7974, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4691c6cbc23cdcc4ea8861c7a6aaaf35, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
@@ -7439,16 +7439,16 @@ MonoBehaviour:
   bgAudioSource: {fileID: 2227472764283948206}
   voiceOverAudioSource: {fileID: 5924576706215665048}
   voiceOverClips:
-  - {fileID: 8300000, guid: 8b5951b9b23542746b211f3f66f28d7b, type: 3}
-  - {fileID: 8300000, guid: 5cb05065de09428498e8e8dbbd2b0672, type: 3}
-  - {fileID: 8300000, guid: d6d32b16f379f1c458833ea113bc56d7, type: 3}
-  - {fileID: 8300000, guid: bb2c00d7e8d5b1146baab1c0312cb2f9, type: 3}
-  - {fileID: 8300000, guid: c5d46a2becdad7a4e9558d4bf53f2244, type: 3}
-  - {fileID: 8300000, guid: bdd84052f8e82ff40bd490cd22f57f85, type: 3}
-  - {fileID: 8300000, guid: 464a400668c13f146b4a220c92699929, type: 3}
-  - {fileID: 8300000, guid: a2fbfd95a79f00f44af57f47198f044d, type: 3}
-  - {fileID: 8300000, guid: b541e88947e63f241878ff1de363b848, type: 3}
-  visitAgainClip: {fileID: 8300000, guid: 056de0565738203489a460efc3dfa5b5, type: 3}
+  - {fileID: 8300000, guid: 0a1ac9a7500072545a9eefeac1ed222d, type: 3}
+  - {fileID: 8300000, guid: fcc69e949e0c6f443b03ea7d12e4f07c, type: 3}
+  - {fileID: 8300000, guid: 73bcb313aefb4a64cbe5008e5e47bb33, type: 3}
+  - {fileID: 8300000, guid: 93348acb3c1f1f2449023609f73bcf42, type: 3}
+  - {fileID: 8300000, guid: 05f20fe6056dae446aab43080f2af9c5, type: 3}
+  - {fileID: 8300000, guid: 17e4e75c96e9bc9489fae0ee06b2cd02, type: 3}
+  - {fileID: 8300000, guid: 2881e886d2cac2d47be1f37d91021464, type: 3}
+  - {fileID: 8300000, guid: 3fc8273fca6d4c64cb467ba3df366698, type: 3}
+  - {fileID: 8300000, guid: a2b974a18736bef41b3ef2186d029468, type: 3}
+  visitAgainClip: {fileID: 8300000, guid: a498f72c95ec33140ac72fb7ee2c58f3, type: 3}
   currentClipIndex: 0
   character: {fileID: 7551858466645037049}
 --- !u!4 &6573892217433847802

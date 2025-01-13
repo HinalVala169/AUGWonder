@@ -127,7 +127,7 @@ public class AudioManager : MonoBehaviour
 
     public void FadeBGMusic()
     {
-        bgAudioSource.volume = 0.25f;
+        bgAudioSource.volume = 0.15f;
     }
 
     public bool IsVoiceOverPlaying()
