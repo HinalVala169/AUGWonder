@@ -51,6 +51,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Taj Scenes Package/AR_CHRIST REDEEMER_Video.unity
     guid: 670e45a5dce2816468add62d90198f7e
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: dbef7e0d8a0c4d243b9e17622b46c9e0,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b6dbb3e0319bd1c43ab80a5b9549b7fa,
+      type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b25c964ccb0448946bfb4081a7861414,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 698ed537bf61a0349854c1c52fce6861,
