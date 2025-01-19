@@ -1275,18 +1275,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 27288960}
   m_SourcePrefab: {fileID: 100100000, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
---- !u!114 &331264286 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2512387470319625105, guid: 48cb3fb68c91eb94999fd99957eb0cae,
-    type: 3}
-  m_PrefabInstance: {fileID: 331264285}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &332374253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,40 +1667,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba63293f961b46a1a5b648e4ba02cfb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ARInteractor: {fileID: 331264286}
+  m_ARInteractorObject: {fileID: 0}
   m_ObjectSpawner: {fileID: 436358033}
   m_RequireHorizontalUpSurface: 0
   m_SpawnTriggerType: 0
-  m_SpawnObjectInput:
-    m_InputSourceMode: 2
-    m_InputActionPerformed:
-      m_Name: Spawn Object
+  m_SpawnAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 8d5a1dc2-5be7-4b05-844c-c18cc41cfe65
+      m_Id: c9e99e7d-ef49-4bad-9f55-428cc01007ed
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionValue:
-      m_Name: Spawn Object Value
-      m_Type: 0
-      m_ExpectedControlType: Axis
-      m_Id: c48b44c5-a6d5-4382-bf83-060b8a595176
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
-    m_InputActionReferenceValue: {fileID: 0}
-    m_ObjectReferenceObject: {fileID: 0}
-    m_ManualPerformed: 0
-    m_ManualValue: 0
-    m_ManualQueuePerformed: 0
-    m_ManualQueueWasPerformedThisFrame: 0
-    m_ManualQueueWasCompletedThisFrame: 0
-    m_ManualQueueValue: 0
-    m_ManualQueueTargetFrame: 0
+    m_Reference: {fileID: 0}
   m_BlockSpawnWhenInteractorHasSelection: 1
 --- !u!1 &451820663
 GameObject:
@@ -13052,7 +13022,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4691c6cbc23cdcc4ea8861c7a6aaaf35, type: 3}
+      objectReference: {fileID: 8300000, guid: a4a1ba2df5819fc45addbd82ab3b8210, type: 3}
     - target: {fileID: 5794183732628351837, guid: 9699288cf43ab0a48aa8911ac301134f,
         type: 3}
       propertyPath: m_LocalPosition.x
