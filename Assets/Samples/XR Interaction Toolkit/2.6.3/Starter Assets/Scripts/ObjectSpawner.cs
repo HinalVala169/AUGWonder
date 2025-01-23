@@ -190,8 +190,14 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         /// Otherwise, it will spawn the prefab at the index.
         /// </remarks>
         /// <seealso cref="objectSpawned"/>
+
+        private bool m_hasSpawn = false;
         public bool TrySpawnObject(Vector3 spawnPoint, Vector3 spawnNormal)
         {
+            if(m_hasSpawn)
+            {
+                return false;
+            }
             if (m_OnlySpawnInView)
             {
                 var inViewMin = m_ViewportPeriphery;
@@ -202,6 +208,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
                 {
                     return false;
                 }
+
             }
 
             var objectIndex = isSpawnOptionRandomized ? Random.Range(0, m_ObjectPrefabs.Count) : m_SpawnOptionIndex;
@@ -231,7 +238,9 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             }
 
             objectSpawned?.Invoke(newObject);
+            m_hasSpawn = true;
             return true;
+
         }
     }
 }
