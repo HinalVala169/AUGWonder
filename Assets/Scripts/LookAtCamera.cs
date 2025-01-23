@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LookAtCamera : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Transform cameraTransform;
+
     void Start()
     {
-        
+        // Find the main camera and get its transform
+        cameraTransform = Camera.main.transform;
+
+        transform.LookAt(cameraTransform);
+        Debug.Log("Camera Rotetion Done");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
