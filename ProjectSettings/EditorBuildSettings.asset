@@ -5,49 +5,49 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Selection Screen.unity
     guid: 0f179f46de7f53143b0066f0a16a46ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Petra_Video.unity
     guid: 85a294affa6d1a14189d100977aaa816
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_MachuPichu_Video.unity
     guid: 7db59ebfbdf12234096d6ec305d191cc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_COLOSSEUM_Video.unity
     guid: beec2719da046c74ca29919ee7b0a5ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_Petra.unity
     guid: 07aa50c109b252c49a6591934a759ea6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_MachuPichu.unity
     guid: d6150bca75f4dfa4e84f34878ba58e72
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_Colosseum.unity
     guid: 723c1f155b52e6c4684f09036653019a
   - enabled: 1
     path: Assets/Scenes/Taj Scenes Package/AR_Taj_Video.unity
     guid: 828b04e605bda724cb8219abef8f8ddd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_CHICHEN ITZA.unity
     guid: c08103d542ac1ad4eb307514ca9d076f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_CHRIST REDEEMER.unity
     guid: b247461292f722348be0a0e19ddc1c94
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_GreatWallOfChina.unity
     guid: 2473038fae2136d449c709ccaba1ea56
   - enabled: 1
     path: Assets/Scenes/Taj Scenes Package/AR_Scenes/AR_Taj.unity
     guid: a5d4d705e870a754e8a20b9d9fcb19d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_CHICHEN ITZA_Video.unity
     guid: 35dab8479de07ee4a8dff5178e9672de
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_GreatWallOfChina_Video.unity
     guid: d4e41370b97706a4f959a87b6ba33921
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Taj Scenes Package/AR_CHRIST REDEEMER_Video.unity
     guid: 670e45a5dce2816468add62d90198f7e
   m_configObjects:
