@@ -13147,7 +13147,7 @@ PrefabInstance:
     - target: {fileID: 5461738884653396142, guid: 107966392f2823c468a611e53f210097,
         type: 3}
       propertyPath: waitTimeList.Array.data[0]
-      value: 130
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 5461738884653396142, guid: 107966392f2823c468a611e53f210097,
         type: 3}

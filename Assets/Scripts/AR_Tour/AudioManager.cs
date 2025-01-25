@@ -11,11 +11,9 @@ public class AudioManager : MonoBehaviour
 
     [Header("Audio Clips")]
     public AudioClip[] voiceOverClips;
-
     public AudioClip visitAgainClip;
 
     public int currentClipIndex = 0;
-
     public CharacterPatrol character;
 
     void Awake()
@@ -75,24 +73,29 @@ public class AudioManager : MonoBehaviour
         ClipToEnd();
 
         // Debug message for the first clip completion
-        if (currentClipIndex == 1) // First clip index is 0, but it increments after playing
+        if (currentClipIndex == 1)
         {
             Debug.Log("The intro clip has finished playing.");
             character.PlayHandAnim();
         }
-        if (currentClipIndex == voiceOverClips.Length) // First clip index is 0, but it increments after playing
+        if (currentClipIndex == voiceOverClips.Length)
         {
-            Debug.Log("The all clip has finished playing.");
-            PlayVisitAgainClip();
+            Debug.Log("All clips have finished playing.");
+            StartCoroutine(DelayedVisitAgainClip());
             InfoManager.Instance.highLightCam.SetActive(false);
-           // character.PlayHandAnim();
         }
-       
-
-        
     }
+
+    IEnumerator DelayedVisitAgainClip()
+    {
+        yield return new WaitForSeconds(2f); // 2 seconds delay
+        PlayVisitAgainClip();
+    }
+
     public void PlayVisitAgainClip()
     {
+                    Debug.Log("Playing 'Visit Again' clip.  AFter 2f ");
+
         if (visitAgainClip != null)
         {
             voiceOverAudioSource.clip = visitAgainClip;
@@ -105,17 +108,14 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-
-
-
     public void ClipToEnd()
     {
         voiceOverAudioSource.Stop();
-        Debug.Log("Voice-over clip has finished playing. : " + currentClipIndex);
-         if (currentClipIndex == voiceOverClips.Length)
+        Debug.Log("Voice-over clip has finished playing: " + currentClipIndex);
+        if (currentClipIndex == voiceOverClips.Length)
         {
             Debug.Log("All listed clips completed. Playing 'Visit Again' clip.");
-           // PlayVisitAgainClip();
+            // PlayVisitAgainClip(); // This is already handled in CheckClipEnd()
         }
         LoudBGMusic();
     }
