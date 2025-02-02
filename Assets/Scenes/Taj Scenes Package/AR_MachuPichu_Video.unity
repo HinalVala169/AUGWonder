@@ -7782,7 +7782,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 1
   waitTimeList:
-  - 150
+  - 155
   - 10
   - 20
   - 10

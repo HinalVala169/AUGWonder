@@ -9398,7 +9398,7 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 1
   waitTimeList:
-  - 165
+  - 166
   - 10
   - 20
   - 10
